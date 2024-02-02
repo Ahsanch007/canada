@@ -1982,9 +1982,9 @@ hr {
 }
 
 body:not(.js-menu-active) .site-header.js-active {
-    --site-header-color: currentColor;
+    /* --site-header-color: currentColor; */
     --site-brand-logo-color: none;
-    --site-header-bg: #fff
+    --site-header-bg: #000
 }
 
 .custom-logo {
