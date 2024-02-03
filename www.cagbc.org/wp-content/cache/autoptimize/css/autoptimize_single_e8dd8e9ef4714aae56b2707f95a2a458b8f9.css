@@ -2189,7 +2189,11 @@ body:not(.js-menu-active) .site-header.js-active {
     gap: .625rem;
     -webkit-box-align: end;
     -ms-flex-align: end;
-    align-items: end
+    align-items: end;
+    display: none !important;
+}
+.share-buttons,.site-language{
+    display: none;
 }
 
 @media (max-width:600px) {
