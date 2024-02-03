@@ -1992,8 +1992,8 @@ body:not(.js-menu-active) .site-header.js-active {
     filter: var(--site-brand-logo-color, none);
     /* height: var(--site-brand-logo-size, 35px);
     width: auto */
-    width: 150px;
-    height: 80px;
+    width: 298px;
+    /* height: 80px; */
 }
 
 @-webkit-keyframes siteHeaderFade {
