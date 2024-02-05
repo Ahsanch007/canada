@@ -2184,6 +2184,9 @@ body:not(.js-menu-active) .site-header.js-active {
         gap: 1rem 1.5rem
     }
 }
+#menu-item-438{
+display: none;
+}
 
 .nav-social {
     gap: .625rem;
