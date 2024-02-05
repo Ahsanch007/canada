@@ -1932,15 +1932,15 @@ hr {
 }
 
 .site-header {
-    background-color: var(--site-header-bg, #fff);
+    background-color: var(--site-header-bg,#fff);
     height: var(--sticky-header);
     position: fixed;
     top: var(--admin-bar);
     left: 0;
     width: 100%;
     z-index: 999;
-    -webkit-transform: translate3d(var(--site-canvas-content-offset, 0), 0, 0);
-    transform: translate3d(var(--site-canvas-content-offset, 0), 0, 0);
+    -webkit-transform: translate3d(var(--site-canvas-content-offset,0),0,0);
+    transform: translate3d(var(--site-canvas-content-offset,0),0,0);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1951,8 +1951,8 @@ hr {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: var(--offcanvas-transition), background-color .25s cubic-bezier(.39, .575, .565, 1);
-    transition: var(--offcanvas-transition), background-color .25s cubic-bezier(.39, .575, .565, 1)
+    -webkit-transition: var(--offcanvas-transition),background-color .25s cubic-bezier(.39,.575,.565,1);
+    transition: var(--offcanvas-transition),background-color .25s cubic-bezier(.39,.575,.565,1);
 }
 
 @media (max-width:600px) {
@@ -1982,9 +1982,9 @@ hr {
 }
 
 body:not(.js-menu-active) .site-header.js-active {
-    /* --site-header-color: currentColor; */
+    --site-header-color: currentColor;
     --site-brand-logo-color: none;
-    --site-header-bg: #000
+    --site-header-bg: #fff;
 }
 
 .custom-logo {
@@ -2184,7 +2184,8 @@ body:not(.js-menu-active) .site-header.js-active {
         gap: 1rem 1.5rem
     }
 }
-#menu-item-438{
+#menu-item-438,
+#learn-rem{
 display: none;
 }
 
