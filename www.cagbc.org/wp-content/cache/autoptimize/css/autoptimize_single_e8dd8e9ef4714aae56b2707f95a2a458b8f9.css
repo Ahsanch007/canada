@@ -270,6 +270,9 @@ template {
     --site-header-bg: "transparent";
     --site-header-color: #fff
 }
+#menu-item-421{
+    display: none;
+}
 
 .single-404 {
     --site-footer-display: none
