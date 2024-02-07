@@ -273,7 +273,10 @@ template {
 #menu-item-421{
     display: none;
 }
-
+#menu-item-2542,
+#menu-item-890{
+    display: none
+}
 .single-404 {
     --site-footer-display: none
 }
