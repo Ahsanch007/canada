@@ -277,6 +277,9 @@ template {
 #menu-item-890{
     display: none
 }
+.search-form{
+    display: none !important;
+}
 .single-404 {
     --site-footer-display: none
 }
