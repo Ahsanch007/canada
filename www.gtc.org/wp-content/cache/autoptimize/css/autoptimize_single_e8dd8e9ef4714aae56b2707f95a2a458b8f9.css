@@ -2528,7 +2528,7 @@ display: none;
 .site-footer-layout {
     display: grid;
     grid-template-columns: 162px -webkit-max-content;
-    grid-template-columns: 162px max-content;
+    /* grid-template-columns: 162px max-content; */
     gap: 2.5rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
